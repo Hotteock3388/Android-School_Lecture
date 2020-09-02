@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextNum1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="숫자1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextNum2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="숫자2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNum1" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNum2">
+
+        <RadioButton
+            android:id="@+id/rbAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="더하기" />
+
+        <RadioButton
+            android:id="@+id/rbSubtract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="빼기" />
+
+        <RadioButton
+            android:id="@+id/rbMultiply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="곱하기" />
+
+        <RadioButton
+            android:id="@+id/rbDivide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="나누기" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>

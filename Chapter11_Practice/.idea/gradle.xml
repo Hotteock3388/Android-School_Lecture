@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/ex01_listview01" />
+            <option value="$PROJECT_DIR$/ex02_listview02_customlistview" />
+            <option value="$PROJECT_DIR$/ex03_listview03_addmodifydelete" />
+            <option value="$PROJECT_DIR$/ex04_listview03_addmodifydelete2" />
+            <option value="$PROJECT_DIR$/ex04_listview04_simpleadapter01" />
+            <option value="$PROJECT_DIR$/ex05_listview_simpleadapter02" />
+            <option value="$PROJECT_DIR$/ex06_listview_customadapter" />
+            <option value="$PROJECT_DIR$/ex06_listview_customadapter01" />
+            <option value="$PROJECT_DIR$/ex06_listview_customadapter02" />
+            <option value="$PROJECT_DIR$/ex06_practice11-1_movieposter" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

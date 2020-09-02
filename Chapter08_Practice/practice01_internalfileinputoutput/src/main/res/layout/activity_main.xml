@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="hint(이곳에 내장 메모리에 저장할 문자열 작성)" />
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내장 메모리에 파일 쓰기"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내장 메모리에서 파일 읽기"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFCE2"
+        android:hint="hint(이곳에 내장메모리에서 읽어온 문자열 출력)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+</LinearLayout>

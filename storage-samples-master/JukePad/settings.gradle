@@ -1,0 +1,8 @@
+rootProject.name='JukePad'
+include ':app'
+include ':ex01_externalstorage'
+include ':ex02_readingsongsfromstorage'
+include ':ex03_sqlitetest'
+include ':ex04_splashactivity'
+include ':ver01_jukepad'
+include ':ex03_sqlitemultipletable'

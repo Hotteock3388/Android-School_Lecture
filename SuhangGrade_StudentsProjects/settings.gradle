@@ -1,0 +1,2 @@
+rootProject.name='SuhangGrade_StudentsProjects'
+include ':app'

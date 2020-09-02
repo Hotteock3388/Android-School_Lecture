@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite Test"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_categoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="category table"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAddCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_soundData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="sound_data table"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnAddSoundData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="ADD"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReadActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="#2196F3"
+        android:text="Read DB Activity"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDropTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="Drop Table"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JukePad</string>
+    <string name="btn_title">Who am I?</string>
+    <string name="juke_pad">GSM SOUND PAD</string>
+    <string name="add">ADD</string>
+    <string name="select_song">SELECT</string>
+</resources>
